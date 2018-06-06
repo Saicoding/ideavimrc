@@ -1,0 +1,42 @@
+"================================================================================="
+" start{{{
+let mapleader=' '
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmode
+set number
+set relativenumber
+set scrolloff=3
+set history=100000
+set clipboard=unnamed
+set winaltkeys=no " 设置 alt 键不映射到菜单栏
+
+" }}}
+"================================================================================="
+" map {{{
+
+inoremap jj <Esc>
+inoremap <A-f>
+inoremap jk <Esc>
+
+nnoremap U <C-r>
+nnoremap tn gt
+nnoremap tp gT
+nnoremap <Space>fp :action ShowFilePath<CR>
+nnoremap <Space>pm :action ShowPopupMenu<CR>
+
+nnoremap <A-4> <End>
+nnoremap <C-Enter> O<Esc>
+nnoremap <Space>w bde "删除光标所在的单词"
+nnoremap <Space>e bvey "选中光标所在词并复制"
+
+vnoremap v <Esc>
+
+" }}}
+
+
+
+
+
